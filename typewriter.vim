@@ -36,7 +36,7 @@ hi WildMenu     ctermfg=235 ctermbg=255
 hi ModeMsg      ctermfg=235 ctermbg=255
 hi MoreMsg      ctermfg=235 ctermbg=255
 hi WarningMsg   ctermfg=202 ctermbg=255
-hi ErrorMsg     ctermfg=196 ctermbg=255 cterm=italic
+hi ErrorMsg     ctermfg=197 ctermbg=255 cterm=italic
 
 hi Visual          ctermfg=235 ctermbg=153
 hi SpecialKey      ctermfg=255 ctermbg=NONE
