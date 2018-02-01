@@ -1,8 +1,19 @@
 # Changelog
 
-## [0.0.1] - 2018-01-30
-- Created the installer
-- Added typewriter vim airline theme
+## [0.1.0] - 2018-02-01
+    #### Vim Typewriter
+    - Support to vim-markdown
+    - Improve support to pug/jade
+    - Improve support to html
+    - Added typewriter-night color scheme
+
+    #### Xresources Typewriter-Night
+    - Added typewriter-night color scheme
+
+
+## [0.0.5] - 2018-01-31
+  - Created the installer
+  - Added typewriter vim airline theme
 
 ## [0.0.1] - 2018-01-30
-- Project initialization
+  - Project initialization

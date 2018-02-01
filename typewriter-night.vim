@@ -1,4 +1,4 @@
-set background=light
+set background=dark
 highlight clear
 
 if exists("syntax on")
@@ -7,16 +7,16 @@ if exists("syntax on")
   syntax reset
 endif
 
-let g:colors_name = "typewriter"
+let g:colors_name = "typewriter-night"
 
-hi Normal          ctermfg=235 ctermbg=255
-hi Title           ctermfg=235 ctermbg=255 term=bold cterm=bold
+hi Normal          ctermfg=255 ctermbg=234
+hi Title           ctermfg=255 ctermbg=234term=bold cterm=bold
 hi Special         ctermfg=234 ctermbg=NONE
 hi Comment         ctermfg=247 ctermbg=NONE cterm=italic
 hi Constant        ctermfg=237 ctermbg=NONE
 hi String          ctermfg=246 ctermbg=NONE
 hi Number          ctermfg=234 ctermbg=NONE
-hi htmlTagName     ctermfg=235 ctermbg=NONE
+hi htmlTagName     ctermfg=255 ctermbg=NONE
 hi Identifier      ctermfg=239 ctermbg=NONE
 hi Statement       ctermfg=242 ctermbg=NONE cterm=NONE
 hi Boolean         ctermfg=242 ctermbg=NONE cterm=NONE
@@ -27,24 +27,24 @@ hi Repeat          ctermfg=244 ctermbg=NONE
 hi Operator        ctermfg=239 ctermbg=NONE
 hi Error           ctermfg=9   ctermbg=NONE
 hi TODO            ctermfg=135 ctermbg=NONE          cterm=italic
-hi linenr          ctermfg=250 ctermbg=255 term=bold cterm=NONE
-hi CursorLineNR    ctermfg=232 ctermbg=255 term=bold cterm=bold
-hi Search          ctermfg=235 ctermbg=153           cterm=bold
-hi IncSearch       ctermfg=235 ctermbg=121           cterm=bold
-hi WildMenu        ctermfg=235 ctermbg=255
+hi linenr          ctermfg=250 ctermbg=234term=bold cterm=NONE
+hi CursorLineNR    ctermfg=232 ctermbg=234term=bold cterm=bold
+hi Search          ctermfg=255 ctermbg=153           cterm=bold
+hi IncSearch       ctermfg=255 ctermbg=121           cterm=bold
+hi WildMenu        ctermfg=255 ctermbg=234
 
 " Messages
-hi ModeMsg         ctermfg=235 ctermbg=255
-hi MoreMsg         ctermfg=235 ctermbg=255
-hi WarningMsg      ctermfg=202 ctermbg=255
-hi ErrorMsg        ctermfg=197 ctermbg=255 cterm=italic
+hi ModeMsg         ctermfg=255 ctermbg=234
+hi MoreMsg         ctermfg=255 ctermbg=234
+hi WarningMsg      ctermfg=202 ctermbg=234
+hi ErrorMsg        ctermfg=197 ctermbg=234cterm=italic
 
-hi Visual          ctermfg=235 ctermbg=153
+hi Visual          ctermfg=255 ctermbg=153
 hi SpecialKey      ctermfg=255 ctermbg=NONE
 hi NonText         ctermfg=255 ctermbg=NONE
 hi ExtraWhitespace             ctermbg=115
 hi MatchParen      ctermfg=234 ctermbg=253 cterm=bold
-hi Pmenu           ctermfg=235 ctermbg=252
+hi Pmenu           ctermfg=255 ctermbg=252
 hi PmenuSel        ctermfg=255 ctermbg=234
 hi VertSplit       ctermfg=254 ctermbg=245
 hi ColorColumn                 ctermbg=254
@@ -89,14 +89,10 @@ hi link jsObjectProp      String
 hi link jsFuncCall        String
 
 " Markdown
-" Support for plain markdown and markdown.vim plugin
 hi link markdownLinkDelimiter     String
 hi link markdownLinkTextDelimiter String
-hi link mkdDelimiter              String
 hi link markdownLinkText          Normal
-hi link mkdLink                   Normal
 hi      markdownUrl               ctermfg=246 ctermbg=NONE cterm=underline term=underline
-hi      mkdUrl                    ctermfg=246 ctermbg=NONE cterm=underline term=underline
 
 " Pug / HTML
 hi link pugId String
@@ -134,8 +130,8 @@ hi goDeclType    ctermfg=242
 
 hi goFunction  ctermfg=242 ctermbg=NONE cterm=italic
 hi goMethod    ctermfg=242 ctermbg=NONE cterm=NONE
-hi goStruct    ctermfg=235 ctermbg=NONE cterm=NONE
-hi goStructDef ctermfg=235 ctermbg=NONE cterm=italic
+hi goStruct    ctermfg=255 ctermbg=NONE cterm=NONE
+hi goStructDef ctermfg=255 ctermbg=NONE cterm=italic
 
 
 " NerdTree
