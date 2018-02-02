@@ -1,14 +1,19 @@
 # Changelog
 
-## [0.1.0] - 2018-02-01
-    #### Vim Typewriter
-    - Support to vim-markdown
-    - Improve support to pug/jade
-    - Improve support to html
-    - Added typewriter-night color scheme
+## [0.1.3] - 2018-02-01
+  - Improved the README
 
-    #### Xresources Typewriter-Night
-    - Added typewriter-night color scheme
+
+## [0.1.0] - 2018-02-01
+
+  **Vim Typewriter**
+  - Support to vim-markdown
+  - Improve support to pug/jade
+  - Improve support to html
+  - Added typewriter-night color scheme
+
+  **Xresources**
+  - Added typewriter-night color scheme
 
 
 ## [0.0.5] - 2018-01-31

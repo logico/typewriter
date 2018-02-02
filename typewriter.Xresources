@@ -1,5 +1,5 @@
 ! Typewriter light
-! Scheme: Lógico Software (https://github.com/logico-dev)
+! Scheme: Typewriter (https://github.com/logico-dev)
 ! Based on: Alexandre Gavioli (https://github.com/Alexx2/)
 
 #define base00 #eeeeee
@@ -29,23 +29,23 @@
 #endif
 *.cursorColor:  #00BAFF
 
-! Negro y gris
+! Black
 *.color0:       base00
 *.color8:       base0A
 
-! Rojos
+! Red
 *.color1:       base08
 *.color9:       base08
 
-! Verde
+! Green
 *.color2:       base05
 *.color10:      base0B
 
-! Amarillo
+! Yellow
 *.color3:       base0A
 *.color11:      base0G
 
-! Azul
+! Blue
 *.color4:       base0D
 *.color12:      base0D
 
@@ -57,7 +57,7 @@
 *.color6:       base0C
 *.color14:      base0C
 
-! Blanco
+! White
 *.color7:       base05
 *.color15:      base07
 
