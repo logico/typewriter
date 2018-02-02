@@ -10,27 +10,27 @@ endif
 let g:colors_name = "typewriter-night"
 
 hi Normal          ctermfg=255 ctermbg=234
-hi Title           ctermfg=255 ctermbg=234term=bold cterm=bold
-hi Special         ctermfg=234 ctermbg=NONE
+hi Title           ctermfg=255 ctermbg=234 term=bold cterm=bold
+hi Special         ctermfg=250 ctermbg=NONE
 hi Comment         ctermfg=247 ctermbg=NONE cterm=italic
-hi Constant        ctermfg=237 ctermbg=NONE
-hi String          ctermfg=246 ctermbg=NONE
-hi Number          ctermfg=234 ctermbg=NONE
+hi Constant        ctermfg=252 ctermbg=NONE
+hi String          ctermfg=250 ctermbg=NONE
+hi Number          ctermfg=252 ctermbg=NONE
 hi htmlTagName     ctermfg=255 ctermbg=NONE
-hi Identifier      ctermfg=239 ctermbg=NONE
+hi Identifier      ctermfg=250 ctermbg=NONE
 hi Statement       ctermfg=242 ctermbg=NONE cterm=NONE
-hi Boolean         ctermfg=242 ctermbg=NONE cterm=NONE
+hi Boolean         ctermfg=252 ctermbg=NONE cterm=NONE
 hi PreProc         ctermfg=244 ctermbg=NONE
-hi Type            ctermfg=239 ctermbg=NONE
-hi Function        ctermfg=240 ctermbg=NONE cterm=italic
+hi Type            ctermfg=248 ctermbg=NONE
+hi Function        ctermfg=244 ctermbg=NONE cterm=italic
 hi Repeat          ctermfg=244 ctermbg=NONE
-hi Operator        ctermfg=239 ctermbg=NONE
+hi Operator        ctermfg=248 ctermbg=NONE
 hi Error           ctermfg=9   ctermbg=NONE
 hi TODO            ctermfg=135 ctermbg=NONE          cterm=italic
-hi linenr          ctermfg=250 ctermbg=234term=bold cterm=NONE
-hi CursorLineNR    ctermfg=232 ctermbg=234term=bold cterm=bold
-hi Search          ctermfg=255 ctermbg=153           cterm=bold
-hi IncSearch       ctermfg=255 ctermbg=121           cterm=bold
+hi linenr          ctermfg=239 ctermbg=234term=bold cterm=NONE
+hi CursorLineNR    ctermfg=255 ctermbg=234term=bold cterm=bold
+hi Search          ctermfg=234 ctermbg=153           cterm=bold
+hi IncSearch       ctermfg=234 ctermbg=121           cterm=bold
 hi WildMenu        ctermfg=255 ctermbg=234
 
 " Messages
@@ -39,15 +39,15 @@ hi MoreMsg         ctermfg=255 ctermbg=234
 hi WarningMsg      ctermfg=202 ctermbg=234
 hi ErrorMsg        ctermfg=197 ctermbg=234cterm=italic
 
-hi Visual          ctermfg=255 ctermbg=153
+hi Visual          ctermfg=235 ctermbg=153
 hi SpecialKey      ctermfg=255 ctermbg=NONE
 hi NonText         ctermfg=255 ctermbg=NONE
 hi ExtraWhitespace             ctermbg=115
-hi MatchParen      ctermfg=234 ctermbg=253 cterm=bold
+hi MatchParen      ctermfg=250 ctermbg=253 cterm=bold
 hi Pmenu           ctermfg=255 ctermbg=252
 hi PmenuSel        ctermfg=255 ctermbg=234
 hi VertSplit       ctermfg=254 ctermbg=245
-hi ColorColumn                 ctermbg=254
+hi ColorColumn                 ctermbg=236
 
 match ExtraWhitespace /\s\+$/
 
@@ -78,7 +78,7 @@ hi link Debug		Special
 
 " javascript (ala vim-javascript-syntax)
 hi javaScriptFuncArg ctermfg=244 ctermbg=NONE
-hi javaScriptFuncExp ctermfg=239
+hi javaScriptFuncExp ctermfg=248
 hi javaScriptBraces                           cterm=NONE
 
 hi link javaScriptDocTags Comment
@@ -92,7 +92,7 @@ hi link jsFuncCall        String
 hi link markdownLinkDelimiter     String
 hi link markdownLinkTextDelimiter String
 hi link markdownLinkText          Normal
-hi      markdownUrl               ctermfg=246 ctermbg=NONE cterm=underline term=underline
+hi      markdownUrl               ctermfg=249 ctermbg=NONE cterm=underline term=underline
 
 " Pug / HTML
 hi link pugId String
@@ -104,10 +104,10 @@ hi link pugClassChar String
 hi link pugAttributes String
 
 hi link htmlTag String
-hi htmlTagName  ctermfg=246 ctermbg=NONE
-hi htmlArg      ctermfg=246 ctermbg=NONE
-hi htmlTag      ctermfg=246 ctermbg=NONE
-hi htmlEndTag   ctermfg=246 ctermbg=NONE
+hi htmlTagName  ctermfg=249 ctermbg=NONE
+hi htmlArg      ctermfg=249 ctermbg=NONE
+hi htmlTag      ctermfg=249 ctermbg=NONE
+hi htmlEndTag   ctermfg=249 ctermbg=NONE
 
 " CSS
 hi link cssBraces	Special

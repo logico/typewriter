@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.4] - 2018-02-02
+  - Some advance in typewriter-night theme
+  - Improved the README
+
 ## [0.1.3] - 2018-02-01
   - Improved the README
 

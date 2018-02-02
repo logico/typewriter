@@ -1,14 +1,14 @@
 # Typewriter
 
-An iA Writer inspired theme. The files can be used indepently:
+  An iA Writer inspired theme. The files can be used indepently:
 
-- Vim color scheme (typewriter.vim)
-- Vim airline theme (typewriter-airline.vim)
-- Xresources color scheme (typewriter.Xresources)
-- Tmux theme (typewriter-tmux)
+  - Vim color scheme (typewriter.vim)
+  - Vim airline theme (typewriter-airline.vim)
+  - Xresources color scheme (typewriter.Xresources)
+  - Tmux theme (typewriter-tmux)
 
 
-### Dependencies
+## Dependencies
 
   - urxvt
   - vim
@@ -20,7 +20,7 @@ An iA Writer inspired theme. The files can be used indepently:
   - tmux
 
 
-### Install
+## Install
 
   **Minimal**
 
@@ -60,27 +60,35 @@ An iA Writer inspired theme. The files can be used indepently:
     augroup END
     ```
 
+---
+
+## Screenshots
+
+  ![vim](https://logico.com.ar/images/typewriter/screenshot_a.png)
+
+  ![vim focus mode](https://logico.com.ar/images/typewriter/screenshot_b.png)
+
+  ![fake bussy](https://logico.com.ar/images/typewriter/screenshot_c.png)
+
+  The font used in the screenshots is SF Mono 12 with letter space of -1 and
+  line space of 8.
+
+  ```
+  # .Xresources file
+  URxvt*letterSpace   : -1
+  URxvt*lineSpace     : 8
+  ```
 
 ---
 
-### Screenshots
 
-![vim](https://logico.com.ar/images/typewriter/screenshot_a.png)
+## TODO
 
-![vim focus mode](https://logico.com.ar/images/typewriter/screenshot_b.png)
+  - Finish the night themes
 
-![fake bussy](https://logico.com.ar/images/typewriter/screenshot_c.png)
 
-The font used in the screenshots is SF Mono 12 with letter space of -1 and
-line space of 8.
-
-```
-# .Xresources file
-URxvt*letterSpace   : -1
-URxvt*lineSpace     : 8
-```
-
-### Thanks
+---
+## Thanks
 
   Typewriter is based/inspired by these projects
 
