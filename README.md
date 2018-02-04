@@ -1,5 +1,7 @@
 # Typewriter [▎]()
 
+---
+
   An iA Writer inspired theme. The files can be used indepently:
 
   - Vim color scheme (typewriter.vim)
@@ -77,6 +79,13 @@
     # .Xresources file
     URxvt*letterSpace   : -1
     URxvt*lineSpace     : 8
+  ```
+
+  or if you use gVim o MacVim
+
+  ```
+    # .gvimrc file
+    set linespace = 8
   ```
 
 ---
