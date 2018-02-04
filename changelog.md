@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.1.6] - 2018-02-04
+  - Added support for gVim and MacVim
+
 ## [0.1.4] - 2018-02-02
   - Some advance in typewriter-night theme
   - Improved the README

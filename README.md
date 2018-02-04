@@ -1,4 +1,4 @@
-# Typewriter
+# Typewriter [▎]()
 
   An iA Writer inspired theme. The files can be used indepently:
 
@@ -43,8 +43,8 @@
       * typewriter.vim         -> $HOME/.vim/colors
       * typewriter-night.vim   -> $HOME/.vim/colors
       * typewriter-airline.vim -> vim-airline-root/autoload/airline/themes/**typewriter.vim** (you must change the name of the file)
-  - Add this line to .Xresources ```#include "/home/your_user/typewriter/typewriter.Xresources"```
-  - Add this line to .tmux.conf ```run-shell "/home/your_user/typewriter/typewriter-tmux/nord.tmux"```
+  - Add this line to .Xresources `#include "/home/your_user/typewriter/typewriter.Xresources"`
+  - Add this line to .tmux.conf `run-shell "/home/your_user/typewriter/typewriter-tmux/nord.tmux"`
   - Add this to .vimrc
     ```
     " Activate FOCUS mode with F12
@@ -74,9 +74,9 @@
   line space of 8.
 
   ```
-  # .Xresources file
-  URxvt*letterSpace   : -1
-  URxvt*lineSpace     : 8
+    # .Xresources file
+    URxvt*letterSpace   : -1
+    URxvt*lineSpace     : 8
   ```
 
 ---

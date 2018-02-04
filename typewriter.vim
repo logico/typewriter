@@ -9,45 +9,46 @@ endif
 
 let g:colors_name = "typewriter"
 
-hi Normal          ctermfg=235 ctermbg=255
-hi Title           ctermfg=235 ctermbg=255 term=bold cterm=bold
-hi Special         ctermfg=234 ctermbg=NONE
-hi Comment         ctermfg=247 ctermbg=NONE cterm=italic
-hi Constant        ctermfg=237 ctermbg=NONE
-hi String          ctermfg=246 ctermbg=NONE
-hi Number          ctermfg=234 ctermbg=NONE
-hi htmlTagName     ctermfg=235 ctermbg=NONE
-hi Identifier      ctermfg=239 ctermbg=NONE
-hi Statement       ctermfg=242 ctermbg=NONE cterm=NONE
-hi Boolean         ctermfg=242 ctermbg=NONE cterm=NONE
-hi PreProc         ctermfg=244 ctermbg=NONE
-hi Type            ctermfg=239 ctermbg=NONE
-hi Function        ctermfg=240 ctermbg=NONE cterm=italic
-hi Repeat          ctermfg=244 ctermbg=NONE
-hi Operator        ctermfg=239 ctermbg=NONE
-hi Error           ctermfg=9   ctermbg=NONE
-hi TODO            ctermfg=135 ctermbg=NONE          cterm=italic
-hi linenr          ctermfg=250 ctermbg=255 term=bold cterm=NONE
-hi CursorLineNR    ctermfg=232 ctermbg=255 term=bold cterm=bold
-hi Search          ctermfg=235 ctermbg=153           cterm=bold
-hi IncSearch       ctermfg=235 ctermbg=121           cterm=bold
-hi WildMenu        ctermfg=235 ctermbg=255
+hi Cursor                                   guibg=#00BAFF
+hi Normal          ctermfg=235 ctermbg=255  guifg=#424242 guibg=#F7F7F7
+hi Title           ctermfg=235 ctermbg=255  guifg=#424242 guibg=#F7F7F7 term=bold cterm=bold gui=bold
+hi Special         ctermfg=234 ctermbg=NONE guifg=#1C1C1C
+hi Comment         ctermfg=247 ctermbg=NONE guifg=#9E9E9E cterm=italic gui=italic
+hi Constant        ctermfg=237 ctermbg=NONE guifg=#3A3A3A
+hi String          ctermfg=246 ctermbg=NONE guifg=#949494
+hi Number          ctermfg=234 ctermbg=NONE guifg=#1C1C1C
+hi htmlTagName     ctermfg=235 ctermbg=NONE guifg=#424242
+hi Identifier      ctermfg=239 ctermbg=NONE guifg=#4E4E4E
+hi Statement       ctermfg=242 ctermbg=NONE guifg=#6C6C6C cterm=NONE
+hi Boolean         ctermfg=242 ctermbg=NONE guifg=#6C6C6C cterm=NONE
+hi PreProc         ctermfg=244 ctermbg=NONE guifg=#808080
+hi Type            ctermfg=239 ctermbg=NONE guifg=#4E4E4E
+hi Function        ctermfg=240 ctermbg=NONE               cterm=italic gui=italic
+hi Repeat          ctermfg=244 ctermbg=NONE guifg=#808080
+hi Operator        ctermfg=239 ctermbg=NONE guifg=#4E4E4E
+hi Error           ctermfg=9   ctermbg=NONE guifg=#FF0000
+hi TODO            ctermfg=135 ctermbg=NONE guifg=#AF5FFF         cterm=italic gui=italic
+hi linenr          ctermfg=250 ctermbg=255  guifg=#BCBCBC term=bold cterm=NONE
+hi CursorLineNR    ctermfg=232 ctermbg=255  guifg=#080808 term=bold cterm=bold gui=bold
+hi Search          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4 cterm=bold gui=bold
+hi IncSearch       ctermfg=235 ctermbg=121  guifg=#424242 guibg=#C3E9DB cterm=bold gui=bold
+hi WildMenu        ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
 
 " Messages
-hi ModeMsg         ctermfg=235 ctermbg=255
-hi MoreMsg         ctermfg=235 ctermbg=255
+hi ModeMsg         ctermfg=235 ctermbg=255  guifg=#424242
+hi MoreMsg         ctermfg=235 ctermbg=255  guifg=#424242
 hi WarningMsg      ctermfg=202 ctermbg=255
-hi ErrorMsg        ctermfg=197 ctermbg=255 cterm=italic
+hi ErrorMsg        ctermfg=197 ctermbg=255 cterm=italic gui=italic
 
-hi Visual          ctermfg=235 ctermbg=153
+hi Visual          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4
 hi SpecialKey      ctermfg=255 ctermbg=NONE
 hi NonText         ctermfg=255 ctermbg=NONE
-hi ExtraWhitespace             ctermbg=115
-hi MatchParen      ctermfg=234 ctermbg=253 cterm=bold
-hi Pmenu           ctermfg=235 ctermbg=252
-hi PmenuSel        ctermfg=255 ctermbg=234
-hi VertSplit       ctermfg=254 ctermbg=245
-hi ColorColumn                 ctermbg=254
+hi ExtraWhitespace             ctermbg=115 guibg=#87D7AF
+hi MatchParen      ctermfg=234 ctermbg=253 guifg=#1C1C1C guibg=#DADADA cterm=bold gui=bold
+hi Pmenu           ctermfg=235 ctermbg=252 guifg=#424242 guibg=#D0D0D0
+hi PmenuSel        ctermfg=255 ctermbg=234 guifg=#EEEEEE guibg=#1C1C1C
+hi VertSplit       ctermfg=254 ctermbg=245 guifg=#E4E4E4 guibg=#8A8A8A
+hi ColorColumn                 ctermbg=254 guibg=#E4E4E4
 
 match ExtraWhitespace /\s\+$/
 
@@ -77,8 +78,8 @@ hi link Debug		Special
 " sytnax specific
 
 " javascript (ala vim-javascript-syntax)
-hi javaScriptFuncArg ctermfg=244 ctermbg=NONE
-hi javaScriptFuncExp ctermfg=239
+hi javaScriptFuncArg ctermfg=244 ctermbg=NONE guifg=#808080
+hi javaScriptFuncExp ctermfg=239 guifg=#4E4E4E
 hi javaScriptBraces                           cterm=NONE
 
 hi link javaScriptDocTags Comment
@@ -95,8 +96,8 @@ hi link markdownLinkTextDelimiter String
 hi link mkdDelimiter              String
 hi link markdownLinkText          Normal
 hi link mkdLink                   Normal
-hi      markdownUrl               ctermfg=246 ctermbg=NONE cterm=underline term=underline
-hi      mkdUrl                    ctermfg=246 ctermbg=NONE cterm=underline term=underline
+hi      markdownUrl               ctermfg=246 ctermbg=NONE guifg=#949494 cterm=underline term=underline gui=underline
+hi      mkdUrl                    ctermfg=246 ctermbg=NONE guifg=#949494 cterm=underline term=underline gui=underline
 
 " Pug / HTML
 hi link pugId String
@@ -108,17 +109,17 @@ hi link pugClassChar String
 hi link pugAttributes String
 
 hi link htmlTag String
-hi htmlTagName  ctermfg=246 ctermbg=NONE
-hi htmlArg      ctermfg=246 ctermbg=NONE
-hi htmlTag      ctermfg=246 ctermbg=NONE
-hi htmlEndTag   ctermfg=246 ctermbg=NONE
+hi htmlTagName  ctermfg=246 ctermbg=NONE guifg=#949494
+hi htmlArg      ctermfg=246 ctermbg=NONE guifg=#949494
+hi htmlTag      ctermfg=246 ctermbg=NONE guifg=#949494
+hi htmlEndTag   ctermfg=246 ctermbg=NONE guifg=#949494
 
 " CSS
 hi link cssBraces	Special
 
 " go (ala vim-go)
-hi gotypes     ctermfg=208 ctermbg=NONE cterm=italic
-hi goDirective ctermfg=242 ctermbg=NONE cterm=italic
+hi gotypes     ctermfg=208 ctermbg=NONE cterm=italic gui=italic
+hi goDirective ctermfg=242 ctermbg=NONE guifg=#6C6C6C cterm=italic gui=italic
 
 hi link goTodo         TODO
 hi link goType         gotypes
@@ -127,15 +128,15 @@ hi link goUnsignedInts gotypes
 hi link goFloats       gotypes
 hi link goComplexes    gotypes
 
-hi goOperator    ctermfg=242
+hi goOperator    ctermfg=242 guifg=#6C6C6C
 hi goBuiltins    ctermfg=70
-hi goDeclaration ctermfg=242
-hi goDeclType    ctermfg=242
+hi goDeclaration ctermfg=242 guifg=#6C6C6C
+hi goDeclType    ctermfg=242 guifg=#6C6C6C
 
-hi goFunction  ctermfg=242 ctermbg=NONE cterm=italic
-hi goMethod    ctermfg=242 ctermbg=NONE cterm=NONE
-hi goStruct    ctermfg=235 ctermbg=NONE cterm=NONE
-hi goStructDef ctermfg=235 ctermbg=NONE cterm=italic
+hi goFunction  ctermfg=242 ctermbg=NONE guifg=#6C6C6C cterm=italic gui=italic
+hi goMethod    ctermfg=242 ctermbg=NONE guifg=#6C6C6C cterm=NONE
+hi goStruct    ctermfg=235 ctermbg=NONE guifg=#424242 cterm=NONE
+hi goStructDef ctermfg=235 ctermbg=NONE guifg=#424242 cterm=italic gui=italic
 
 
 " NerdTree

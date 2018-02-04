@@ -9,14 +9,14 @@ endif
 
 let g:colors_name = "typewriter-night"
 
-hi Normal          ctermfg=255 ctermbg=234
-hi Title           ctermfg=255 ctermbg=234 term=bold cterm=bold
+hi Normal          ctermfg=254 ctermbg=234
+hi Title           ctermfg=254 ctermbg=234 term=bold cterm=bold
 hi Special         ctermfg=250 ctermbg=NONE
 hi Comment         ctermfg=247 ctermbg=NONE cterm=italic
 hi Constant        ctermfg=252 ctermbg=NONE
 hi String          ctermfg=250 ctermbg=NONE
 hi Number          ctermfg=252 ctermbg=NONE
-hi htmlTagName     ctermfg=255 ctermbg=NONE
+hi htmlTagName     ctermfg=254 ctermbg=NONE
 hi Identifier      ctermfg=250 ctermbg=NONE
 hi Statement       ctermfg=242 ctermbg=NONE cterm=NONE
 hi Boolean         ctermfg=252 ctermbg=NONE cterm=NONE
@@ -28,25 +28,25 @@ hi Operator        ctermfg=248 ctermbg=NONE
 hi Error           ctermfg=9   ctermbg=NONE
 hi TODO            ctermfg=135 ctermbg=NONE          cterm=italic
 hi linenr          ctermfg=239 ctermbg=234term=bold cterm=NONE
-hi CursorLineNR    ctermfg=255 ctermbg=234term=bold cterm=bold
+hi CursorLineNR    ctermfg=254 ctermbg=234term=bold cterm=bold
 hi Search          ctermfg=234 ctermbg=153           cterm=bold
 hi IncSearch       ctermfg=234 ctermbg=121           cterm=bold
-hi WildMenu        ctermfg=255 ctermbg=234
+hi WildMenu        ctermfg=254 ctermbg=232
 
 " Messages
-hi ModeMsg         ctermfg=255 ctermbg=234
-hi MoreMsg         ctermfg=255 ctermbg=234
+hi ModeMsg         ctermfg=254 ctermbg=234
+hi MoreMsg         ctermfg=254 ctermbg=234
 hi WarningMsg      ctermfg=202 ctermbg=234
 hi ErrorMsg        ctermfg=197 ctermbg=234cterm=italic
 
 hi Visual          ctermfg=235 ctermbg=153
-hi SpecialKey      ctermfg=255 ctermbg=NONE
-hi NonText         ctermfg=255 ctermbg=NONE
+hi SpecialKey      ctermfg=254 ctermbg=NONE
+hi NonText         ctermfg=254 ctermbg=NONE
 hi ExtraWhitespace             ctermbg=115
 hi MatchParen      ctermfg=250 ctermbg=253 cterm=bold
-hi Pmenu           ctermfg=255 ctermbg=252
-hi PmenuSel        ctermfg=255 ctermbg=234
-hi VertSplit       ctermfg=254 ctermbg=245
+hi Pmenu           ctermfg=254 ctermbg=233
+hi PmenuSel        ctermfg=234 ctermbg=255
+hi VertSplit       ctermfg=233 ctermbg=235
 hi ColorColumn                 ctermbg=236
 
 match ExtraWhitespace /\s\+$/
@@ -130,8 +130,8 @@ hi goDeclType    ctermfg=242
 
 hi goFunction  ctermfg=242 ctermbg=NONE cterm=italic
 hi goMethod    ctermfg=242 ctermbg=NONE cterm=NONE
-hi goStruct    ctermfg=255 ctermbg=NONE cterm=NONE
-hi goStructDef ctermfg=255 ctermbg=NONE cterm=italic
+hi goStruct    ctermfg=254 ctermbg=NONE cterm=NONE
+hi goStructDef ctermfg=254 ctermbg=NONE cterm=italic
 
 
 " NerdTree
