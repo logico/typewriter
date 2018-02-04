@@ -1,6 +1,4 @@
-# Typewriter [▎]()
-
----
+# Typewriter [▎](https://logico.com.ar)
 
   An iA Writer inspired theme. The files can be used indepently:
 
