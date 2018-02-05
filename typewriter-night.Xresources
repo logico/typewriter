@@ -2,7 +2,7 @@
 ! Scheme: Lógico Software (https://github.com/logico-dev)
 ! Based on: Alexandre Gavioli (https://github.com/Alexx2/)
 
-#define base00 #1a1a1a
+#define base00 #262626
 #define base01 #e3e3e3
 #define base02 #b9b9b9
 #define base03 #ababab

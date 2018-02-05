@@ -5,7 +5,7 @@ function! airline#themes#typewriter#refresh()
         \ 'red': airline#themes#get_highlight('Constant'),
         \ }
 
-  let s:N1 = airline#themes#get_highlight2(['Normal', 'bg'], ['Normal', 'fg'], 'bold')
+  let s:N1 = airline#themes#get_highlight2(['Error', 'bg'], ['Normal', 'fg'], 'bold')
   let s:N2 = airline#themes#get_highlight('Pmenu')
   let s:N3 = airline#themes#get_highlight('CursorLine')
   let g:airline#themes#typewriter#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
@@ -33,7 +33,7 @@ function! airline#themes#typewriter#refresh()
   let g:airline#themes#typewriter#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
   let g:airline#themes#typewriter#palette.visual_modified = g:airline#themes#typewriter#palette.normal_modified
 
-  let s:IA = [ '#777777' , '#d7d7d7' , 245 , 254 , '' ]
+  let s:IA = [ '#ff2727' , '#272727' , 245 , 234 , '' ]
   let g:airline#themes#typewriter#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
   let g:airline#themes#typewriter#palette.inactive_modified = {
@@ -42,4 +42,3 @@ function! airline#themes#typewriter#refresh()
 endfunction
 
 call airline#themes#typewriter#refresh()
-

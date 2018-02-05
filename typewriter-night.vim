@@ -9,12 +9,12 @@ endif
 
 let g:colors_name = "typewriter-night"
 
-hi Normal          ctermfg=254 ctermbg=234
-hi Title           ctermfg=254 ctermbg=234 term=bold cterm=bold
+hi Normal          ctermfg=254 ctermbg=235
+hi Title           ctermfg=254 ctermbg=235 term=bold cterm=bold
 hi Special         ctermfg=250 ctermbg=NONE
-hi Comment         ctermfg=247 ctermbg=NONE cterm=italic
+hi Comment         ctermfg=239 ctermbg=NONE cterm=italic
 hi Constant        ctermfg=252 ctermbg=NONE
-hi String          ctermfg=250 ctermbg=NONE
+hi String          ctermfg=242 ctermbg=NONE
 hi Number          ctermfg=252 ctermbg=NONE
 hi htmlTagName     ctermfg=254 ctermbg=NONE
 hi Identifier      ctermfg=250 ctermbg=NONE
@@ -27,27 +27,28 @@ hi Repeat          ctermfg=244 ctermbg=NONE
 hi Operator        ctermfg=248 ctermbg=NONE
 hi Error           ctermfg=9   ctermbg=NONE
 hi TODO            ctermfg=135 ctermbg=NONE          cterm=italic
-hi linenr          ctermfg=239 ctermbg=234term=bold cterm=NONE
-hi CursorLineNR    ctermfg=254 ctermbg=234term=bold cterm=bold
+hi linenr          ctermfg=238 ctermbg=235 term=bold cterm=NONE
+hi CursorLineNR    ctermfg=254 ctermbg=235 term=bold cterm=bold
 hi Search          ctermfg=234 ctermbg=153           cterm=bold
 hi IncSearch       ctermfg=234 ctermbg=121           cterm=bold
-hi WildMenu        ctermfg=254 ctermbg=232
+hi WildMenu        ctermfg=254 ctermbg=235
 
 " Messages
-hi ModeMsg         ctermfg=254 ctermbg=234
-hi MoreMsg         ctermfg=254 ctermbg=234
-hi WarningMsg      ctermfg=202 ctermbg=234
+hi ModeMsg         ctermfg=254 ctermbg=235
+hi MoreMsg         ctermfg=254 ctermbg=235
+hi WarningMsg      ctermfg=202 ctermbg=235
 hi ErrorMsg        ctermfg=197 ctermbg=234cterm=italic
 
 hi Visual          ctermfg=235 ctermbg=153
 hi SpecialKey      ctermfg=254 ctermbg=NONE
 hi NonText         ctermfg=254 ctermbg=NONE
 hi ExtraWhitespace             ctermbg=115
-hi MatchParen      ctermfg=250 ctermbg=253 cterm=bold
+hi MatchParen      ctermfg=250 ctermbg=238 cterm=bold
 hi Pmenu           ctermfg=254 ctermbg=233
 hi PmenuSel        ctermfg=234 ctermbg=255
 hi VertSplit       ctermfg=233 ctermbg=235
 hi ColorColumn                 ctermbg=236
+hi Underlined      ctermfg=245 ctermbg=NONE guifg=#949494 cterm=underline term=underline gui=underline
 
 match ExtraWhitespace /\s\+$/
 
@@ -91,8 +92,11 @@ hi link jsFuncCall        String
 " Markdown
 hi link markdownLinkDelimiter     String
 hi link markdownLinkTextDelimiter String
+hi link mkdDelimiter              String
 hi link markdownLinkText          Normal
-hi      markdownUrl               ctermfg=249 ctermbg=NONE cterm=underline term=underline
+hi link mkdLink                   Normal
+hi link markdownUrl               Underlined
+hi link mkdUrl                    Underlined
 
 " Pug / HTML
 hi link pugId String
