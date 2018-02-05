@@ -23,11 +23,17 @@
 ## Install
 
   - You can use your vim plugin manager of choice
-  - Or manually 
+  - Or manually
     - copy `colors/*.vim` to `~/.vim/colors/`
     - copy `autoload/airline` `~/.vim/autoload/`
   - Add this to .vimrc
     ```vim
+    " Set typewriter as colorscheme
+    colorscheme typewriter
+
+    " Set typewriter airline theme
+    let g:airline_theme = 'typewriter'
+
     " Activate FOCUS mode with F12
     nmap <F12> :Goyo <bar> Limelight!!<CR>"
 
@@ -36,8 +42,8 @@
     let &t_SI = "\e[5 q"
     let &t_EI = "\e[1 q"
     augroup myCmds
-    au!
-    autocmd VimEnter * silent !echo -ne "\e[1 q"
+      au!
+      autocmd VimEnter * silent !echo -ne "\e[1 q"
     augroup END
     ```
 

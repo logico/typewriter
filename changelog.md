@@ -1,7 +1,12 @@
 # Changelog
 
+## [0.1.9] - 2018-02-05
+  - Changed the filename of airline theme
+  - Update README
+
 ## [0.1.8] - 2018-02-05
   - Improved airline theme with typewriter-night scheme
+  - Better contrast in typewriter-night
 
 ## [0.1.6] - 2018-02-04
   - Added gui support
@@ -12,7 +17,6 @@
 
 ## [0.1.3] - 2018-02-01
   - Improved the README
-
 
 ## [0.1.0] - 2018-02-01
 
