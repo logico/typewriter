@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.1.8] - 2018-02-05
+  - Improved airline theme with typewriter-night scheme
+
 ## [0.1.6] - 2018-02-04
   - Added gui support
 
