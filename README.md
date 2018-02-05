@@ -22,31 +22,12 @@
 
 ## Install
 
-  **Minimal**
-
-  With this setup you only get the vim color scheme and airline theme.
-
-  - Clone this repo to your favourite location (i.e.: /home/your_user/)
-  - Soft links the files (or move it)
-      * typewriter.vim         -> $HOME/.vim/colors
-      * typewriter-night.vim   -> $HOME/.vim/colors
-      * typewriter-airline.vim -> vim-airline-root/autoload/airline/themes/**typewriter.vim** (you must change the name of the file)
-
-
-
-  **Full**
-
-  With this setup you get the full experience of Typewriter.
-
-  - Clone this repo to your favourite location (i.e.: /home/your_user/)
-  - Soft links the files (or move it)
-      * typewriter.vim         -> $HOME/.vim/colors
-      * typewriter-night.vim   -> $HOME/.vim/colors
-      * typewriter-airline.vim -> vim-airline-root/autoload/airline/themes/**typewriter.vim** (you must change the name of the file)
-  - Add this line to .Xresources `#include "/home/your_user/typewriter/typewriter.Xresources"`
-  - Add this line to .tmux.conf `run-shell "/home/your_user/typewriter/typewriter-tmux/nord.tmux"`
+  - You can use your vim plugin manager of choice
+  - Or manually 
+    - copy `colors/*.vim` to `~/.vim/colors/`
+    - copy `autoload/airline` `~/.vim/autoload/`
   - Add this to .vimrc
-    ```
+    ```vim
     " Activate FOCUS mode with F12
     nmap <F12> :Goyo <bar> Limelight!!<CR>"
 
@@ -59,6 +40,11 @@
     autocmd VimEnter * silent !echo -ne "\e[1 q"
     augroup END
     ```
+
+  **Extra configs for tmux & Xresources**
+
+  - Add this line to .Xresources `#include "/home/your_user/typewriter/typewriter.Xresources"`
+  - Add this line to .tmux.conf `run-shell "/home/your_user/typewriter/typewriter-tmux/nord.tmux"`
 
 ---
 
