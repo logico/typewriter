@@ -58,9 +58,17 @@
 
   ![vim](https://logico.com.ar/images/typewriter/screenshot_a.png)
 
+  ![gui vim](https://logico.com.ar/images/typewriter/screenshot_a.png)
+
   ![vim focus mode](https://logico.com.ar/images/typewriter/screenshot_b.png)
 
   ![fake bussy](https://logico.com.ar/images/typewriter/screenshot_c.png)
+
+  ![typewriter night vim](https://logico.com.ar/images/typewriter/screenshot_d.png)
+
+  ![typewriter night vim focus mode](https://logico.com.ar/images/typewriter/screenshot_e.png)
+
+  ![typewriter night gui vim](https://logico.com.ar/images/typewriter/screenshot_f.png)
 
   The font used in the screenshots is SF Mono 12 with letter space of -1 and
   line space of 8.
@@ -83,7 +91,9 @@
 
 ## TODO
 
-  - Finish the night themes
+  - ~~Finish the night themes~~
+  - Finish xresources night theme
+  - Finish tmux night theme
 
 
 ---

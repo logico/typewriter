@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.3.0] - 2018-02-11
+  - Finished Typewriter night
+
 ## [0.1.9] - 2018-02-05
   - Changed the filename of airline theme
   - Update README
