@@ -58,7 +58,7 @@
 
   ![vim](https://logico.com.ar/images/typewriter/screenshot_a.png)
 
-  ![gui vim](https://logico.com.ar/images/typewriter/screenshot_a.png)
+  ![gui vim](https://logico.com.ar/images/typewriter/screenshot_g.png)
 
   ![vim focus mode](https://logico.com.ar/images/typewriter/screenshot_b.png)
 
