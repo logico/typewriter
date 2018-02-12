@@ -10,8 +10,8 @@ endif
 let g:colors_name = "typewriter"
 
 hi Cursor                                   guibg=#00BAFF
-hi Normal          ctermfg=235 ctermbg=255  guifg=#424242 guibg=#F7F7F7
-hi Title           ctermfg=235 ctermbg=255  guifg=#424242 guibg=#F7F7F7 term=bold   cterm=bold   gui=bold
+hi Normal          ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
+hi Title           ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE term=bold   cterm=bold   gui=bold
 hi Special         ctermfg=234 ctermbg=NONE guifg=#1C1C1C guibg=NONE
 hi Comment         ctermfg=247 ctermbg=NONE guifg=#9E9E9E guibg=NONE    term=italic cterm=italic gui=italic
 hi Constant        ctermfg=237 ctermbg=NONE guifg=#3A3A3A guibg=NONE
@@ -36,10 +36,10 @@ hi IncSearch       ctermfg=235 ctermbg=121  guifg=#424242 guibg=#C3E9DB cterm=bo
 hi WildMenu        ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
 
 " Messages
-hi ModeMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#F7F7F7
-hi MoreMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#F7F7F7
-hi WarningMsg      ctermfg=202 ctermbg=255  guifg=#FF5F00 guibg=#F7F7F7
-hi ErrorMsg        ctermfg=197 ctermbg=255  guifg=#E41D91 guibg=#F7F7F7 cterm=italic gui=italic
+hi ModeMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
+hi MoreMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
+hi WarningMsg      ctermfg=202 ctermbg=255  guifg=#FF5F00 guibg=#EEEEEE
+hi ErrorMsg        ctermfg=197 ctermbg=255  guifg=#E41D91 guibg=#EEEEEE cterm=italic gui=italic
 
 hi Visual          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4
 hi SpecialKey      ctermfg=255 ctermbg=NONE

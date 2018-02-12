@@ -1,5 +1,8 @@
 # Changelog
 
+## [0.3.1] - 2018-02-12
+  - Minor change in gui backgrounds (same color as terminal vim)
+
 ## [0.3.0] - 2018-02-11
   - Finished Typewriter night
 
