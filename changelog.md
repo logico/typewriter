@@ -1,4 +1,6 @@
 # Changelog
+## [0.3.2] - 2018-03-21
+  - New cmus colorscheme
 
 ## [0.3.1] - 2018-02-12
   - Minor change in gui backgrounds (same color as terminal vim)
