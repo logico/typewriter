@@ -4,7 +4,7 @@
 
 #define base00 #eeeeee
 #define base01 #e3e3e3
-#define base02 #b9b9b9
+#define base02 #00BAFF
 #define base03 #ababab
 #define base04 #525252
 #define base05 #464646
@@ -27,7 +27,7 @@
 #else
 *.background:   base00
 #endif
-*.cursorColor:  #00BAFF
+*.cursorColor:  base02
 
 ! Black
 *.color0:       base00
@@ -55,7 +55,7 @@
 
 ! Cyan
 *.color6:       base0C
-*.color14:      base0C
+*.color14:      base02
 
 ! White
 *.color7:       base05
