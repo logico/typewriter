@@ -43,7 +43,7 @@ hi ErrorMsg        ctermfg=197 ctermbg=234  guifg=#FF005F guibg=#1C1C1C term=ita
 
 hi Visual          ctermfg=235 ctermbg=153  guifg=#262626 guibg=#AFD7FF
 hi SpecialKey      ctermfg=254 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
-hi NonText         ctermfg=254 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
+hi NonText         ctermfg=238 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
 hi ExtraWhitespace             ctermbg=115                guibg=#87D7AF
 hi MatchParen      ctermfg=250 ctermbg=238  guifg=#BCBCBC guibg=#444444 cterm=bold
 hi Pmenu           ctermfg=254 ctermbg=233  guifg=#E4E4E4 guibg=#121212
