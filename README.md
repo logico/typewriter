@@ -4,6 +4,7 @@
 
   - Vim color scheme (typewriter.vim)
   - Vim airline theme (typewriter-airline.vim)
+  - Vim lightline theme (lightline.vim)
   - Xresources color scheme (typewriter.Xresources)
   - Tmux theme (typewriter-tmux)
 
@@ -95,6 +96,11 @@
   - Finish xresources night theme
   - Finish tmux night theme
 
+
+---
+## Contributors
+  - Vim lightline themes [sainnhe](https://github.com/sainnhe)
+  - Code structure organization [Ahmed El Gabri](https://github.com/ahmedelgabri)
 
 ---
 ## Thanks
