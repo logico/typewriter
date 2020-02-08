@@ -7,6 +7,16 @@
   - Vim lightline theme (lightline.vim)
   - Xresources color scheme (typewriter.Xresources)
   - Tmux theme (typewriter-tmux)
+  
+# ⚠️ DEPRECATED ⚠️
+
+This repo was splitted in:
+
+ - [Typewriter VIm](https://github.com/logico/typewriter-vim)
+ - [Typewriter Xresources](https://github.com/logico/typewriter-xresources)
+ - [Typewriter TMUX](https://github.com/logico/typewriter-tmux)
+ - [Typewriter CMUS](https://github.com/logico/typewriter-cmus)
+ - [Typewriter GTK](https://github.com/logico/typewriter-gtk)
 
 
 ## Dependencies
